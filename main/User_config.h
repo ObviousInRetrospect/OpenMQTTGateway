@@ -94,7 +94,7 @@
 #define mqtt_topic_max_size 100
 char mqtt_user[parameters_size] = "your_username"; // not compulsory only if your broker needs authentication
 char mqtt_pass[parameters_size] = "your_password"; // not compulsory only if your broker needs authentication
-char mqtt_server[parameters_size] = "192.168.1.17";
+char mqtt_server[parameters_size] = "10.1.10.3";
 char mqtt_port[6] = "1883";
 char mqtt_topic[mqtt_topic_max_size] = Base_Topic;
 char gateway_name[parameters_size * 2] = Gateway_Name;
@@ -105,7 +105,7 @@ char gateway_name[parameters_size * 2] = Gateway_Name;
 //Addons and module management, comment the Z line
 
 //#define ZgatewayRF     "RF"       //ESP8266, Arduino, ESP32
-//#define ZgatewayIR     "IR"       //ESP8266, Arduino,         Sonoff RF Bridge
+#define ZgatewayIR     "IR"       //ESP8266, Arduino,         Sonoff RF Bridge
 //#define ZgatewayLORA   "LORA"       //ESP8266, Arduino, ESP32
 //#define ZgatewayPilight "Pilight" //ESP8266, Arduino, ESP32
 //#define ZgatewayBT     "BT"       //ESP8266, ESP32
@@ -120,11 +120,11 @@ char gateway_name[parameters_size * 2] = Gateway_Name;
 //#define ZsensorADC     "ADC"      //ESP8266, Arduino, ESP32
 //#define ZsensorBH1750  "BH1750"   //ESP8266, Arduino, ESP32
 //#define ZsensorTSL2561 "TSL2561"  //ESP8266, Arduino, ESP32
-//#define ZsensorBME280  "BME280"   //ESP8266, Arduino, ESP32
+#define ZsensorBME280  "BME280"   //ESP8266, Arduino, ESP32
 //#define ZsensorDHT     "DHT"      //ESP8266, Arduino, ESP32,  Sonoff RF Bridge
 //#define ZsensorGPIOKeyCode "GPIOKeyCode" //ESP8266, Arduino, ESP32
 //#define ZsensorGPIOInput "GPIOInput" //ESP8266, Arduino, ESP32
-//#define ZmqttDiscovery "HADiscovery"//ESP8266, Arduino, ESP32, Sonoff RF Bridge
+#define ZmqttDiscovery "HADiscovery"//ESP8266, Arduino, ESP32, Sonoff RF Bridge
 //#define ZactuatorFASTLED "FASTLED"  //ESP8266, Arduino, ESP32, Sonoff RF Bridge
 
 /*-------------DEFINE YOUR MQTT ADVANCED PARAMETERS BELOW----------------*/

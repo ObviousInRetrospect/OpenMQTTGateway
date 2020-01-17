@@ -1,0 +1,32 @@
+{
+    "name": "ESPiLight", 
+    "keywords": [
+        "pilight", 
+        "433mhz", 
+        "434mhz", 
+        "rf"
+    ], 
+    "description": "pilight 433.92 MHz protocols library for Arduino. With this port of pilight 433.92 MHz protocols, you can transmit, receive and parse all 434 MHz protocols (e.g., rc switches or weather stations) supported by pilight. This should help to implement IoT bridges between the 434MHz-RF band and internet protocols. It is developed and tested on ESP8266.", 
+    "repository": {
+        "type": "git", 
+        "url": "https://github.com/puuu/ESPiLight.git"
+    }, 
+    "version": "0.16.2", 
+    "license": "GPL-3.0", 
+    "frameworks": [
+        "arduino"
+    ], 
+    "platforms": [
+        "espressif8266", 
+        "espressif32"
+    ], 
+    "authors": [
+        {
+            "email": null, 
+            "url": "https://github.com/puuu", 
+            "maintainer": false, 
+            "name": "puuu"
+        }
+    ], 
+    "id": 996
+}
